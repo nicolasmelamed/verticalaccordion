@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="all" />
+<title>Acordion nico</title>
+<link href="css/dcaccordion.css" rel="stylesheet" type="text/css" />
+<link href="css/skins/blue.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type='text/javascript' src='js/jquery.dcjqaccordion.2.7.min.js'></script>
+<script type='text/javascript' src='js/jquery.hoverIntent.minified.js'></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery){
+	jQuery('#accordion-1').dcAccordion({
+        eventType: 'hover',
+        autoClose: true,
+        hoverDelay: 300,
+        saveState: false,
+        disableLink: true,
+        showCount: false,
+        menuClose: true,
+        speed: 'slow'
+	});
+    jQuery('#accordion-2').dcAccordion({
+        eventType: 'click',
+        autoClose: true,
+        hoverDelay: 300,
+        saveState: false,
+        disableLink: true,
+        showCount: false,
+        menuClose: true,
+        speed: 'slow'
+    });
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+
+<div class="blue demo-container">
+
+<ul class="accordion"  id="accordion-1">
+    <li><a href="#">Jeans</a><ul>
+		<li><a href="#">Bootcut</a></li>
+		<li><a href="#">Flare Bell</a></li>
+		<li><a href="#">Relaxed</a></li>
+		<li><a href="#">Skinny</a></li>
+        <li><a href="#">Slim</a></li>
+        <li><a href="#">Super Skinny</a></li>
+        <li><a href="#">Straight</a></li>
+	  </ul>
+	</li>
+    <li><a href="#">Pants & Shorts</a></li>
+    <li><a href="#">Faldas</a></li>
+    <li><a href="#">Remeras</a></li>
+    <li><a href="#">Camisas</a></li>
+    <li><a href="#">Abrigos</a></li>
+<li><a href="#">Accesorios</a><ul>
+    <li><a href="#">Zapatos</a></li>
+    <li><a href="#">Relojes</a></li>
+    <li><a href="#">Cinturones</a></li>
+    <li><a href="#">Collares</a></li>
+    <li><a href="#">Llaveros</a></li>
+</ul>
+</li>
+<li><a href="#">Trajes de baño</a></li>
+<li><a href="#">Vestidos & Monos</a></li>
+</ul>
+</div>
+
+<div class="blue demo-container">
+
+<ul class="accordion"  id="accordion-2">
+    <li><a href="#">Jeans</a><ul>
+        <li><a href="#">Bootcut</a></li>
+        <li><a href="#">Flare Bell</a></li>
+        <li><a href="#">Relaxed</a></li>
+        <li><a href="#">Skinny</a></li>
+        <li><a href="#">Slim</a></li>
+        <li><a href="#">Super Skinny</a></li>
+        <li><a href="#">Straight</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Pants & Shorts</a></li>
+    <li><a href="#">Faldas</a></li>
+    <li><a href="#">Remeras</a></li>
+    <li><a href="#">Camisas</a></li>
+    <li><a href="#">Abrigos</a></li>
+<li><a href="#">Accesorios</a><ul>
+    <li><a href="#">Zapatos</a></li>
+    <li><a href="#">Relojes</a></li>
+    <li><a href="#">Cinturones</a></li>
+    <li><a href="#">Collares</a></li>
+    <li><a href="#">Llaveros</a></li>
+</ul>
+</li>
+<li><a href="#">Trajes de baño</a></li>
+<li><a href="#">Vestidos & Monos</a></li>
+</ul>
+</div>
+
+<div class="clear"></div>
+</div>
+</body>
+</html>
